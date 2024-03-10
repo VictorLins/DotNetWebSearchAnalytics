@@ -3,7 +3,8 @@
 Welcome to the Web Search Analytics Documentation!
 The aim of this project is to provide a web portal for users to search a **specific term** in Google and/or Bing and visualize how many times a **specific keyword** appeared in the results and also show its position/rank.
 
-![Untitled](https://github.com/VictorLins/DraftDotNetWebSearchAnalytics/assets/15841201/77662c8e-d20f-48b8-a2db-d4caf24774bc)
+![Untitled](https://github.com/VictorLins/DotNetWebSearchAnalytics/assets/15841201/170ffe8b-3cbb-4bd1-9d73-e55d666f5c9e)
+
 
 Microsoft Identity Manager, alongside Json Web Token (JWT), was utilized in this repository.
 > [!NOTE]  
@@ -13,8 +14,7 @@ This repository also includes unit tests and a Windows Forms client for convenie
 
 The following technologies and tools were utilized:
 
-![Main Draft (2)](https://github.com/VictorLins/DraftDotNetWebSearchAnalytics/assets/15841201/a0f773b4-223d-4327-b059-411f454a8c31)
-
+![Main Draft (2)](https://github.com/VictorLins/DotNetWebSearchAnalytics/assets/15841201/21bbea69-6763-4bdc-b477-9e7227079fb0)
 
 ## Table of Contents
 
@@ -61,14 +61,13 @@ Before running the API, ensure you have the following installed:
 
    The following tables should be created:
    
-   ![image](https://github.com/VictorLins/DraftDotNetWebSearchAnalytics/assets/15841201/bee50988-78ea-4330-8127-e0adbec92417)
-
+   ![image](https://github.com/VictorLins/DotNetWebSearchAnalytics/assets/15841201/caca0c23-04a8-4b84-8a35-4a2cebfa9960)
 
 ### Execution
 
 1. Compile the API solution and **start** the project **DotNetWebSearchAnalyticsAPI.Api**
 
-   ![image](https://github.com/VictorLins/DraftDotNetWebSearchAnalytics/assets/15841201/e35fa136-a230-414c-8f86-14f49ebe442b)
+   ![image](https://github.com/VictorLins/DotNetWebSearchAnalytics/assets/15841201/48fe786d-6684-41e1-86f5-9b1b5659e14a)
 
 3. Compile the WebPortal solution (Please note that Node.js is required and this process may take a few minutes).
    
@@ -77,13 +76,12 @@ Before running the API, ensure you have the following installed:
    
 5. Run the project
    
-![image](https://github.com/VictorLins/DraftDotNetWebSearchAnalytics/assets/15841201/328dceb4-96ad-43d0-87fd-cf28178ce0de)
-
+![image](https://github.com/VictorLins/DotNetWebSearchAnalytics/assets/15841201/2f009260-2cfd-4ff7-a4e5-6be8ad8d1550)
 
 ### Backend API Documentation
 The API documentation can be accessed using Swagger (https://<LOCALHOST:PORT>/swagger/index.html) 
 
-![image](https://github.com/VictorLins/DraftDotNetWebSearchAnalytics/assets/15841201/f2277aef-21ec-42b3-9ad8-76f2c2a94146)
+![image](https://github.com/VictorLins/DotNetWebSearchAnalytics/assets/15841201/bf21969c-ed20-4373-90ff-eafd6690c8cb)
 
 ### Security Client
 A client application was developed to provide an easy and quick way to create users in Microsoft Identity, fetch the JWT token and use it to test the API endpoints. To use this tool, you just need to create a user, and then perform the login operation, at the end of this process a Token will be generated.
@@ -92,8 +90,9 @@ Although this feature is fully operational, it has not yet been plugged in the f
 
 Please note that the user **admin@example.com** with the password **Password@123** was already created for testing purposes.
 
-![image](https://github.com/VictorLins/DraftDotNetWebSearchAnalytics/assets/15841201/12258367-9a81-41f6-aeb6-25e36b8f2861)
+![image](https://github.com/VictorLins/DotNetWebSearchAnalytics/assets/15841201/61ffdde3-5997-430f-9c5f-993cedadb04d)
 
 The client is a Windows Form application structured as per below:
 
-![image](https://github.com/VictorLins/DraftDotNetWebSearchAnalytics/assets/15841201/a3acb4c1-e134-44cb-a43e-04372023d7e6)
+![image](https://github.com/VictorLins/DotNetWebSearchAnalytics/assets/15841201/3cc2e569-c1c2-406b-9e8e-3d228fef85a3)
+
