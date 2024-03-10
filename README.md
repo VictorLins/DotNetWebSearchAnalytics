@@ -5,8 +5,9 @@ The aim of this project is to provide a web portal for users to search a **speci
 
 ![Untitled](https://github.com/VictorLins/DraftDotNetWebSearchAnalytics/assets/15841201/77662c8e-d20f-48b8-a2db-d4caf24774bc)
 
-
-Microsoft Identity Manager, alongside Json Web Token (JWT), was utilized in this repository. It is fully working, although it is not yet part of the complete solution.
+Microsoft Identity Manager, alongside Json Web Token (JWT), was utilized in this repository.
+> [!NOTE]  
+> Microsoft Identity and JWT are fully functional and available for integration into the frontend solution in upcoming releases.
 
 This repository also includes unit tests and a Windows Forms client for convenient permission testing.
 
@@ -33,8 +34,9 @@ Before running the API, ensure you have the following installed:
 
 - .NET 7 SDK: [Download here](https://dotnet.microsoft.com/en-us/download/dotnet/7.0)
 - Visual Studio 22: [Download here](https://visualstudio.microsoft.com/vs/)
-- SQL Server Express Edition
-- Node.js v20.11.0
+- SQL Server Express Edition [Download here](https://go.microsoft.com/fwlink/p/?linkid=2215158&clcid=0x809&culture=en-gb&country=gb)
+- Node.js v20.11.0 [Download here](https://nodejs.org/en/download)
+- Git [Download here](https://git-scm.com/downloads)
 
 ### Configuration
 
@@ -68,8 +70,12 @@ Before running the API, ensure you have the following installed:
 
    ![image](https://github.com/VictorLins/DraftDotNetWebSearchAnalytics/assets/15841201/e35fa136-a230-414c-8f86-14f49ebe442b)
 
-3. Compile the WebPortal solution (Please note that Node.js is required and this process may take a few minutes)
-4. Run the project
+3. Compile the WebPortal solution (Please note that Node.js is required and this process may take a few minutes).
+   
+> [!WARNING]  
+> For any problem in this step, please go to the folder "**DotNetWebSearchAnalyticsWebPortal\dotnetwebsearchanalyticswebportal.client**" → Delete the folder "**node_modules**" → Open CMD → Execute the command "**npm install**"
+   
+5. Run the project
    
 ![image](https://github.com/VictorLins/DraftDotNetWebSearchAnalytics/assets/15841201/328dceb4-96ad-43d0-87fd-cf28178ce0de)
 
